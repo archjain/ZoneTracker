@@ -14,6 +14,7 @@
 		E435DE2B1FC4D25B00D31F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E435DE291FC4D25B00D31F8F /* LaunchScreen.storyboard */; };
 		E435DE361FC4D25C00D31F8F /* ZoneTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435DE351FC4D25C00D31F8F /* ZoneTrackerTests.swift */; };
 		E435DE411FC4D25C00D31F8F /* ZoneTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435DE401FC4D25C00D31F8F /* ZoneTrackerUITests.swift */; };
+		E435DE4F1FC4D67E00D31F8F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435DE4E1FC4D67E00D31F8F /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E435DE3C1FC4D25C00D31F8F /* ZoneTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E435DE401FC4D25C00D31F8F /* ZoneTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneTrackerUITests.swift; sourceTree = "<group>"; };
 		E435DE421FC4D25C00D31F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E435DE4E1FC4D67E00D31F8F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E435DE271FC4D25B00D31F8F /* Assets.xcassets */,
 				E435DE291FC4D25B00D31F8F /* LaunchScreen.storyboard */,
 				E435DE2C1FC4D25B00D31F8F /* Info.plist */,
+				E435DE4E1FC4D67E00D31F8F /* CustomTableViewCell.swift */,
 			);
 			path = ZoneTracker;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E435DE4F1FC4D67E00D31F8F /* CustomTableViewCell.swift in Sources */,
 				E435DE231FC4D25B00D31F8F /* ViewController.swift in Sources */,
 				E435DE211FC4D25B00D31F8F /* AppDelegate.swift in Sources */,
 			);
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ADYBL6CXC;
 				INFOPLIST_FILE = ZoneTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Holtec.ZoneTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ADYBL6CXC;
 				INFOPLIST_FILE = ZoneTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Holtec.ZoneTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
